@@ -1,0 +1,202 @@
+@media screen and (max-width: 1500px) {
+
+    .span {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1069px) {
+
+    .logo {
+        display: flex;
+        margin-left: 50px;
+    }    
+
+    .container {        
+        display: flex;
+        justify-content: center;
+        margin: 0 50px;
+    }
+
+    .card-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-cards {
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        max-height: 530px;        
+    }
+
+    .span {
+        display: inline;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .menu {
+        display: none;
+    }
+
+    .menu-responsive {        
+        display: flex;
+        font-size: 30px;
+        color: #fff;
+        margin-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 782px) {
+
+    .logo {
+        width: 100px;
+    }
+
+    
+    .sub-title-container h4 {
+        font-size: 22px;
+    }
+
+    .btn-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .img-rodape {
+        margin-left: 0;
+    }
+    .nav-rodape {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .rede-social {
+        display: flex;
+        justify-content: left;
+        margin-top: 50px;        
+    }
+
+    .img-rede-social {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+
+    .logo {
+        width: 100px;
+    }
+
+    .title-container h1 {
+        font-size: 24px;
+    }
+
+    .sub-title-container h4 {
+        font-size: 16px;
+    }
+
+    .btn-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sub-title-info h2 {
+        font-size: 30px;
+    }
+
+    .img-rodape {
+        margin-left: 0;
+    }
+    .nav-rodape {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .rede-social {
+        display: flex;
+        justify-content: left;
+        margin-top: 50px;        
+    }
+
+    .img-rede-social {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    
+    .title-container h1 {
+        font-size: 21px;
+    }
+
+    .sub-title-container h4 {
+        font-size: 14px;
+    }
+
+    .prf-container p {
+        font-size: 9px;
+    }
+
+    .sub-title-info h3 {
+        margin: 0 auto;
+        text-align: center;
+        width: 95%;
+        font-size: 17px;
+    }
+
+    .box-cards {
+        width: 100%;
+        max-width: 300px;
+        max-height: 575px;        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .rede-social {
+        width: 100%;
+    }
+
+    .nav-final {
+        display: flex;
+        width: 95%;
+    }
+
+    .nav-final ul {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+}
+
